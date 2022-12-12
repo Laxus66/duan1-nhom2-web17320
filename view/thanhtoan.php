@@ -124,7 +124,20 @@
                     <input type="hidden" name="name_hh" value="<?php echo $cart[1]?>">
                     <input type="hidden" name="soluong_hh" value="<?php echo $cart[4]?>">
                     <input type="text" name="date" value="<?php $date = date('Y-m-d H:i:s'); echo $date ?>" hidden>
-                   <input type="submit" name="thanhtoan" value="Thanh Toán">
+                
+                   <?php
+                            if(isset($_SESSION['name'])){
+                                extract($_SESSION['name']);
+                                ?>
+                                
+                                <input type="submit" name="thanhtoan" value="Thanh Toán">
+                            <?php
+                            }else{
+                                ?> 
+                                       <input type="submit" name="thanhtoan" onclick="show()" value="Thanh Toán">
+                             <?php   
+                            }
+                        ?>
               
             </div>
         </div>

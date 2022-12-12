@@ -1,18 +1,14 @@
 <!-- Blog -->
 <!-- <h2 class="title">ABC</h2> -->
-   <?php
-          foreach ($listblog as $bl) {
-            extract($bl);
-            $img = $img_path . $img;
-            echo '
+ 
             <div class="blog">
 
   <div class="blog-left">
     <div class="blog-left-box">
       <div class="blog-left-box-img">
-        <img src="'.$img.'" alt="">
+        <img src="https://picsum.photos/900/900" alt="">
       </div>
-      <p><i class="fa-solid fa-newspaper"></i>'.$title.'</p>
+      <p><i class="fa-solid fa-newspaper"></i> Những lưu ý trước khi mua hàng..</p>
       <button>Tìm Hiểu Thêm</button>
     </div>
     <div class="blog-left-box">
@@ -42,6 +38,3 @@
     </div>
   </div>
 </div>
-';
-          }
-   ?>

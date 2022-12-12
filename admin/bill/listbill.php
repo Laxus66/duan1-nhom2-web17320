@@ -11,7 +11,7 @@
 
 <body>
 
-<h3 style="margin-top: 10px;">Danh Sách Danh Mục</h3>
+<h3 style="margin-top: 10px;">Danh Sách Đơn Hàng</h3>
 <form action="">
         <table>
             <thead>
