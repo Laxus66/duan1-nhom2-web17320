@@ -13,7 +13,7 @@
 <body>
     <div class="borderlist">
 
-    <h3 style="margin-top: 10px;">Danh Sách liên hệ</h3>
+    <h3 style="margin-top: 10px;">Danh Sách Liên Hệ</h3>
 
 
         <form action="" method="POST">
